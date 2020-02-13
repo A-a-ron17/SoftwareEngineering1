@@ -7,13 +7,12 @@ class Main
 
 {
 public static void main(String[] args) 
-
 {
 
 Scanner Obj = new Scanner (System.in);
 System.out.println("Enter an integer value");
 
-int x_val = 10; 
+int x_val = 10; //Obj.nextInt();
 int value = 0;
 int count = 1;
 
@@ -47,12 +46,7 @@ for (int q = x_val; q<=8; q++)
 if (q == 4)
        {
          q = 5;
-       }
-
-       
+       }       
 }
-
-
 }
-
 }
